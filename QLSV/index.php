@@ -1,3 +1,15 @@
+<?php
+// if(isset($_POST['btn-submit'])) {
+//     $name = $_POST['hoten'];
+//     $masv = $_POST['masv'];
+//     $class = $_POST['lop'];
+//     echo $name;
+//     echo $masv;
+//     echo $class;
+// }
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -27,8 +39,8 @@
             <div class="form-group"><label for="hoten">Họ tên</label><input type="text" id="hoten" name="hoten" class="form-control"></div>
             <div class="form-group"><label for="masv">Mã sinh viên</label><input type="text" id="masv" name="masv" class="form-control"></div>
             <div class="form-group"><label for="lop">Lớp</label><input id="lop" name="lop" type="text" class="form-control"></div>
+            <button name="btn-submit" type="submit" class="btn btn-primary">Thêm sinh viên</button>
         </form>
-        <button type="submit" class="btn btn-primary">Thêm sinh viên</button>
     </div>
 </body>
 </html>
